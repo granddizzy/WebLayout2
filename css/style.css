@@ -550,6 +550,28 @@ a:hover {
 
 .activity__icon {
     width: 1182px;
+    position: relative;
+}
+
+.activity .playbutton {
+    position: absolute;
+    top: 37%;
+    left: 46%;
+    cursor: pointer;
+}
+
+.activity__text {
+    position: absolute;
+    bottom: 48px;
+    left: 50px;
+
+    color: #FFF;
+
+    font-family: Orbitron, serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .footer {
