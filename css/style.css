@@ -40,7 +40,7 @@ a:hover {
     margin: 0 auto;
 }
 
-.navigation .leftSide {
+.navigation__leftSide {
     color: #FFF;
     font-family: Orbitron, serif;
     font-size: 22px;
@@ -49,7 +49,7 @@ a:hover {
     line-height: normal;
 }
 
-.navigation .rightSide {
+.navigation__rightSide {
     color: #FFF;
     font-family: Poppins, serif;
     font-size: 16px;
@@ -89,7 +89,12 @@ a:hover {
     align-items: flex-start;
 }
 
-.getstarted .container .leftSide {
+.getstarted__leftSide {
+    max-width: 612px;
+    margin-top: 42px;
+}
+
+.getstarted__leftSide h1 {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -97,13 +102,9 @@ a:hover {
     font-style: normal;
     font-weight: 600;
     line-height: 68px; /* 151.111% */
-
-    max-width: 612px;
-
-    margin-top: 42px;
 }
 
-.getstarted .container .leftSide .text2 {
+.getstarted__leftSide .text {
     color: #FFF;
 
     font-family: Poppins, serif;
@@ -128,7 +129,7 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.getstarted .container .rightSide .img {
+.getstarted__rightSide .img {
     flex-shrink: 0;
     width: 566px;
     height: 568px;
@@ -137,20 +138,18 @@ a:hover {
     position: relative;
 }
 
-.getstarted .container .rightSide .img .blur {
+.getstarted__rightSide .img .blur {
     position: absolute;
     width: 100%;
     bottom: -180px;
 }
-.getstarted .container .rightSide .img .stars {
+.getstarted__rightSide .img .stars {
     position: absolute;
-    /*width: 100%;*/
-    /*bottom: -180px;*/
     top: 126px;
     left: -10px;
 }
 
-.buttons {
+.getstarted__buttons {
     display: flex;
     gap: 16px;
     margin-top: 46px;
@@ -203,13 +202,13 @@ a:hover {
     cursor: pointer;
 }
 
-.info {
+.getstarted__info {
     margin-top: 40px;
     display: flex;
     gap: 68px;
 }
 
-.info .text1 {
+.getstarted__info .text {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -219,7 +218,7 @@ a:hover {
     line-height: normal;
 }
 
-.info .text2 {
+.getstarted__info h2 {
     color: #FFF;
 
     font-family: Poppins, serif;
@@ -227,6 +226,10 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.whatis {
+    margin-top: 100px;
 }
 
 .whatis .container {
@@ -238,41 +241,41 @@ a:hover {
     align-items: center;
 }
 
-.whatis .leftSide {
+.whatis__leftSide {
     width: 524px;
     position: relative;
     height: 439px;
 }
 
-.whatis .leftSide .leftSide__img1 {
+.whatis__leftSide .leftSide__img1 {
     position: absolute;
     top: 11px;
     left: 10px;
 }
 
-.whatis .leftSide .leftSide__img1_1 {
+.whatis__leftSide .leftSide__img1_1 {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.whatis .leftSide .leftSide__img2 {
+.whatis__leftSide .leftSide__img2 {
     position: absolute;
     bottom: 15px;
     right: 4px;
 }
 
-.whatis .leftSide .leftSide__img2_1 {
+.whatis__leftSide .leftSide__img2_1 {
     position: absolute;
     bottom: -3px;
     right: -10px;
 }
 
-.whatis .rightSide {
+.whatis__rightSide {
     max-width: 524px;
 }
 
-.whatis .button1 {
+.whatis__rightSide .button1 {
     color: #FFF;
 
     font-family: Poppins, serif;
@@ -288,9 +291,11 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+
+    margin-top: 52px;
 }
 
-.whatis .text1 {
+.whatis__rightSide h1 {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -300,7 +305,7 @@ a:hover {
     line-height: normal;
 }
 
-.whatis .text2 {
+.whatis__rightSide .text {
     color: rgba(255, 255, 255, 0.80);
 
     font-family: Poppins, serif;
@@ -312,7 +317,7 @@ a:hover {
     margin-top: 16px;
 }
 
-.whatis .metaverse {
+.whatis__rightSide .metaverse {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -327,23 +332,11 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.whatis .button1 {
-    olor: #FFF;
-
-    font-family: Poppins, serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
-    margin-top: 52px;
-}
-
 .howwork {
     margin-top: 50px;
 }
 
-.howwork .text1 {
+.howwork h1 {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -354,7 +347,7 @@ a:hover {
     text-align: center;
 }
 
-.howwork .text2 {
+.howwork .text {
     color: rgba(255, 255, 255, 0.80);
 
     text-align: center;
@@ -364,7 +357,6 @@ a:hover {
     font-weight: 400;
     line-height: normal;
 
-    /*margin-top: 16px;*/
     max-width: 584px;
 
     margin: 16px auto auto auto;
@@ -385,7 +377,7 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.howork__icons {
+.howwork__items {
     display: grid;
     align-content: center;
     justify-content: center;
@@ -396,7 +388,7 @@ a:hover {
     gap: 38px;
 }
 
-.howork__icons .icon {
+.howwork__items .howwork__item {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -404,11 +396,11 @@ a:hover {
     padding: 19px;
 }
 
-.howork__icons .icon img {
+.howwork__items .howwork__item img {
     width: 100%;
 }
 
-.howork__icons .text1 {
+.howwork__items h2 {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -421,7 +413,7 @@ a:hover {
     margin-top: 23px;
 }
 
-.howork__icons .text2 {
+.howwork__items .text {
     color: #FFF;
 
     font-family: Poppins, serif;
@@ -434,7 +426,17 @@ a:hover {
     margin-top: 8px;
 }
 
-.howork__icons .button1 {
+.howwork__buttons {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.howwork__buttons .button1 {
     display: flex;
     width: 103px;
     height: 36px;
@@ -453,11 +455,7 @@ a:hover {
     line-height: normal;
 }
 
-.howork__icons .buttons {
-    margin-top: 28px;
-}
-
-.howork__icons .button2 {
+.howwork__buttons .button2 {
     display: flex;
     width: 122px;
     height: 36px;
@@ -480,7 +478,7 @@ a:hover {
     margin-top: 50px;
 }
 
-.activity .text1 {
+.activity h1 {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -491,7 +489,7 @@ a:hover {
     text-align: center;
 }
 
-.activity .text2 {
+.activity .text {
     color: rgba(255, 255, 255, 0.80);
 
     text-align: center;
@@ -541,14 +539,13 @@ a:hover {
     align-items: center;
     gap: 54px;
 
-    /*width: 2000px;*/
     margin: auto;
 
     padding-bottom: 229px;
     padding-top: 56px;
 }
 
-.activity__icon {
+.activity__item {
     width: 1182px;
     position: relative;
 }
@@ -560,7 +557,7 @@ a:hover {
     cursor: pointer;
 }
 
-.activity__text {
+.activity__container h1 {
     position: absolute;
     bottom: 48px;
     left: 50px;
@@ -588,7 +585,7 @@ a:hover {
     align-items: flex-start;
 }
 
-.footer .about .text1 {
+.footer__about .text {
     color: rgba(255, 255, 255, 0.80);
 
     font-family: Poppins, serif;
@@ -600,12 +597,15 @@ a:hover {
     margin-top: 23px;
 }
 
-.footer .menu {
+.footer__about {
+    max-width: 524px;
+}
+
+.footer__menu {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
-    /*justify-content: center;*/
     gap: 60px;
 
     color: #FFF;
@@ -617,11 +617,7 @@ a:hover {
     line-height: normal;
 }
 
-.footer .about {
-    max-width: 524px;
-}
-
-.footer .menu__block {
+.footer__menu .menu__block {
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -631,7 +627,7 @@ a:hover {
     width: 149px;
 }
 
-.footer .menu__block .title {
+.footer__menu .menu__block .title {
     margin-bottom: 21px;
 
     color: #FFF;
@@ -643,7 +639,7 @@ a:hover {
     line-height: normal;
 }
 
-.footer .metaverse {
+.footer__about .metaverse {
     font-family: Orbitron, serif;
     font-size: 50px;
     font-style: normal;
@@ -661,7 +657,7 @@ a:hover {
     /*-webkit-text-fill-color: transparent;*/
 }
 
-.footer .menu .contact {
+.footer__menu .contact {
     width: 230px;
 
     color: #FFF;
@@ -673,7 +669,7 @@ a:hover {
     line-height: normal;
 }
 
-.footer .menu .social {
+.footer__menu .social {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
