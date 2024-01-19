@@ -232,6 +232,24 @@ a:hover {
     max-width: 524px;
 }
 
+.whatis .button1 {
+    color: #FFF;
+
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    display: flex;
+    width: 137px;
+    height: 44px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .whatis .text1 {
     color: #FFF;
 
@@ -350,7 +368,7 @@ a:hover {
     width: 100%;
 }
 
-.howork__icons .text1{
+.howork__icons .text1 {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -464,8 +482,40 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.footer {
+.activity .wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 
+    overflow: hidden;
+}
+
+.activity__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+
+    /*width: 2000px;*/
+    margin: auto;
+
+    padding-bottom: 229px;
+    padding-top: 56px;
+}
+
+.activity__icon {
+    width: 1182px;
+}
+
+.footer {
+    background-color: #090823;
+    padding-top: 104px;
+    padding-bottom: 126px;
 }
 
 .footer .container {
