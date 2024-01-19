@@ -327,6 +327,96 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
+.howork__icons {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 87px;
+    gap: 38px;
+}
+
+.howork__icons .icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 19px;
+}
+
+.howork__icons .icon img {
+    width: 100%;
+}
+
+.howork__icons .text1{
+    color: #FFF;
+
+    font-family: Orbitron, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+
+    margin-top: 23px;
+}
+
+.howork__icons .text2 {
+    color: #FFF;
+
+    font-family: Poppins, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+
+    margin-top: 8px;
+}
+
+.howork__icons .button1 {
+    display: flex;
+    width: 103px;
+    height: 36px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    color: #FFF;
+
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.howork__icons .buttons {
+    margin-top: 28px;
+}
+
+.howork__icons .button2 {
+    display: flex;
+    width: 122px;
+    height: 36px;
+    padding: 12px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    color: #FFF;
+
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .activity {
     margin-top: 50px;
