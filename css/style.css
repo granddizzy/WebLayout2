@@ -141,7 +141,7 @@ a:hover {
 .getstarted__rightSide .img .blur {
     position: absolute;
     width: 100%;
-    bottom: -180px;
+    bottom: -215px;
 }
 .getstarted__rightSide .img .stars {
     position: absolute;
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .whatis {
-    margin-top: 100px;
+    margin-top: 115px;
 }
 
 .whatis .container {
