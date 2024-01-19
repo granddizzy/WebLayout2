@@ -76,11 +76,11 @@ a:hover {
     padding-bottom: 18px;
 }
 
-.banner {
+.getstarted {
     margin-top: 96px;
 }
 
-.banner .container {
+.getstarted .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,7 +89,7 @@ a:hover {
     align-items: flex-start;
 }
 
-.banner .container .leftSide {
+.getstarted .container .leftSide {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -103,7 +103,7 @@ a:hover {
     margin-top: 42px;
 }
 
-.banner .container .leftSide .text2 {
+.getstarted .container .leftSide .text2 {
     color: #FFF;
 
     font-family: Poppins, serif;
@@ -115,7 +115,7 @@ a:hover {
     max-width: 521px;
 }
 
-.banner .metaverse {
+.getstarted .metaverse {
     font-family: Orbitron, serif;
     font-size: 55px;
     font-style: normal;
@@ -128,7 +128,7 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.banner .container .rightSide .img {
+.getstarted .container .rightSide .img {
     flex-shrink: 0;
     width: 566px;
     height: 568px;
@@ -137,12 +137,12 @@ a:hover {
     position: relative;
 }
 
-.banner .container .rightSide .img .blur {
+.getstarted .container .rightSide .img .blur {
     position: absolute;
     width: 100%;
     bottom: -180px;
 }
-.banner .container .rightSide .img .stars {
+.getstarted .container .rightSide .img .stars {
     position: absolute;
     /*width: 100%;*/
     /*bottom: -180px;*/
@@ -339,11 +339,11 @@ a:hover {
     margin-top: 52px;
 }
 
-.howork {
+.howwork {
     margin-top: 50px;
 }
 
-.howork .text1 {
+.howwork .text1 {
     color: #FFF;
 
     font-family: Orbitron, serif;
@@ -354,7 +354,7 @@ a:hover {
     text-align: center;
 }
 
-.howork .text2 {
+.howwork .text2 {
     color: rgba(255, 255, 255, 0.80);
 
     text-align: center;
@@ -370,7 +370,7 @@ a:hover {
     margin: 16px auto auto auto;
 }
 
-.howork .metaverse {
+.howwork .metaverse {
     color: #FFF;
 
     font-family: Orbitron, serif;
