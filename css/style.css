@@ -112,7 +112,7 @@ a:hover {
     font-weight: 400;
     line-height: normal;
 
-    max-width: 521px;;
+    max-width: 521px;
 }
 
 .banner .metaverse {
@@ -239,7 +239,33 @@ a:hover {
 }
 
 .whatis .leftSide {
+    width: 524px;
+    position: relative;
+    height: 439px;
+}
 
+.whatis .leftSide .leftSide__img1 {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+
+.whatis .leftSide .leftSide__img1_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.whatis .leftSide .leftSide__img2 {
+    position: absolute;
+    bottom: 15px;
+    right: 4px;
+}
+
+.whatis .leftSide .leftSide__img2_1 {
+    position: absolute;
+    bottom: -3px;
+    right: -10px;
 }
 
 .whatis .rightSide {
