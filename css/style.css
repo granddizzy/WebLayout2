@@ -15,6 +15,52 @@ body {
     color: #000;
     scroll-behavior: smooth;
     background: var(--1);
+    position: relative;
+}
+
+.ellipse8 {
+    background-image: url("../img/Ellipse8.png");
+    position: absolute;
+    top: 0;
+    left: 260px;
+    width: 886px;
+    height: 445px;
+}
+
+.ellipse7 {
+    background-image: url("../img/Ellipse7.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 547px;
+    height: 915px;
+}
+
+.ellipse9 {
+    background-image: url("../img/Ellipse9.png");
+    position: absolute;
+    top: 1050px;
+    right: 0;
+    width: 377px;
+    height: 1046px;
+}
+
+.ellipse10 {
+    background-image: url("../img/Ellipse10.png");
+    position: absolute;
+    top: 2200px;
+    left: 0;
+    width: 523px;
+    height: 1057px;
+}
+
+.ellipse6 {
+    background-image: url("../img/Ellipse6.png");
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 522px;
+    height: 1057px;
 }
 
 img {
