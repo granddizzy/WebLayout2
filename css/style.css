@@ -12,7 +12,6 @@
 }
 
 body {
-    /*background: #FFF;*/
     color: #000;
     scroll-behavior: smooth;
     background: var(--1);
@@ -37,7 +36,7 @@ a:hover {
 }
 
 .navigation {
-    margin: 0 auto;
+
 }
 
 .navigation__leftSide {
@@ -72,8 +71,7 @@ a:hover {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 43px;
 }
 
 .getstarted {
@@ -113,6 +111,7 @@ a:hover {
     font-weight: 400;
     line-height: normal;
 
+    margin-top: 16px;
     max-width: 521px;
 }
 
@@ -416,8 +415,10 @@ a:hover {
 .howwork__items .text {
     color: #FFF;
 
+    color: #FFF;
+
     font-family: Poppins, serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
