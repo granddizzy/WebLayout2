@@ -426,7 +426,7 @@ a:hover {
     display: grid;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     justify-items: stretch;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 87px;
@@ -725,4 +725,17 @@ a:hover {
     align-items: center;
     margin-bottom: 24px;
     width: 90%;
+}
+
+@media (max-width: 1278px) {
+    .container {
+        max-width: 1198px;
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation__rightSide {
+        display: none;
+    }
 }
