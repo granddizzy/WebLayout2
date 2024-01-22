@@ -111,6 +111,20 @@ a:hover {
     gap: 50px;
 }
 
+.navigation__links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigation__burger {
+    display: none;
+}
+
 .navigation .container {
     display: flex;
     flex-direction: row;
@@ -188,6 +202,7 @@ a:hover {
     width: 100%;
     bottom: -215px;
 }
+
 .getstarted__rightSide .img .stars {
     position: absolute;
     top: 126px;
@@ -627,7 +642,7 @@ a:hover {
 .footer .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -664,7 +679,7 @@ a:hover {
     line-height: normal;
 }
 
-.footer__menu .menu__block {
+.footer__menuBlock {
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -674,7 +689,7 @@ a:hover {
     width: 149px;
 }
 
-.footer__menu .menu__block .title {
+.footer__menuBlock .title {
     margin-bottom: 21px;
 
     color: #FFF;
@@ -704,19 +719,33 @@ a:hover {
     /*-webkit-text-fill-color: transparent;*/
 }
 
-.footer__menu .contact {
+.footer__contacts {
     width: 230px;
-
     color: #FFF;
-
     font-family: Poppins, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-.footer__menu .social {
+.footer__contacts .title {
+    margin-bottom: 21px;
+
+    color: #FFF;
+
+    font-family: Orbitron, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__contactsSocial {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -734,8 +763,43 @@ a:hover {
     }
 }
 
+@media (max-width: 1190px) {
+    .footer__contacts {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 960px) {
+    .footer .container {
+        flex-direction: column
+    }
+
+    .footer__menu {
+        margin-top: 50px;
+        width: 100%;
+        justify-content: space-between
+    }
+
+    .footer__contactsSocial {
+        width: 200px;
+    }
+
+    .footer__contacts {
+        width: 100%;
+    }
+}
+
+
 @media (max-width: 600px) {
-    .navigation__rightSide {
+    .navigation__links {
         display: none;
+    }
+
+    .navigation__burger {
+        display: block;
+    }
+
+    .footer {
+        padding-bottom: 50px;
     }
 }
