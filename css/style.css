@@ -22,9 +22,12 @@ body {
     background-image: url("../img/Ellipse8.png");
     position: absolute;
     top: 0;
-    left: 260px;
+    /*left: 260px;*/
+    left: 15%;
     width: 886px;
     height: 445px;
+    z-index: -1;
+    max-width: 100%;
 }
 
 .ellipse7 {
@@ -34,33 +37,44 @@ body {
     right: 0;
     width: 547px;
     height: 915px;
+    z-index: -1;
+    max-width: 100%;
 }
 
 .ellipse9 {
     background-image: url("../img/Ellipse9.png");
     position: absolute;
-    top: 1050px;
+    /*top: 1050px;*/
+    top: 75%;
     right: 0;
     width: 377px;
     height: 1046px;
+    z-index: -1;
+    max-width: 100%;
 }
 
 .ellipse10 {
     background-image: url("../img/Ellipse10.png");
     position: absolute;
-    top: 2200px;
+    /*top: 2200px;*/
+    top: 52%;
     left: 0;
     width: 523px;
     height: 1057px;
+    z-index: -1;
+    max-width: 100%;
 }
 
 .ellipse6 {
     background-image: url("../img/Ellipse6.png");
     position: absolute;
-    top: 400px;
+    /*top: 400px;*/
+    top: 12%;
     left: 0;
     width: 522px;
     height: 1057px;
+    z-index: -1;
+    max-width: 100%;
 }
 
 img {
@@ -190,17 +204,19 @@ a:hover {
 
 .getstarted__rightSide .img {
     flex-shrink: 0;
-    width: 566px;
-    height: 568px;
+    /*width: 566px;*/
+    /*height: 568px;*/
     /*background: var(--1);*/
-    background: url("../img/image1.png"), center/cover no-repeat;
+    /*background: url("../img/image1.png"), center/cover no-repeat;*/
     position: relative;
 }
 
 .getstarted__rightSide .img .blur {
     position: absolute;
     width: 100%;
-    bottom: -215px;
+    height: 70%;
+    /*bottom: -215px;*/
+    bottom: -35%;
 }
 
 .getstarted__rightSide .img .stars {
@@ -612,14 +628,14 @@ a:hover {
     position: relative;
 }
 
-.activity .playbutton {
+.activity__item .playbutton {
     position: absolute;
     top: 37%;
     left: 46%;
     cursor: pointer;
 }
 
-.activity__container h1 {
+.activity__item h1 {
     position: absolute;
     bottom: 48px;
     left: 50px;
@@ -761,6 +777,95 @@ a:hover {
         max-width: 1198px;
         margin: 0 40px;
     }
+
+    .stars {
+        display: none;
+    }
+
+    .getstarted .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .getstarted__leftSide {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .getstarted__leftSide .text {
+        margin: 16px auto;
+        max-width: 350px;
+    }
+
+    .getstarted__rightSide {
+        width: 100%;
+    }
+
+    .getstarted__rightSide .img img {
+        margin: auto;
+    }
+
+    .getstarted__buttons {
+        justify-content: center;
+    }
+
+    .whatis .container {
+        flex-direction: column;
+    }
+
+    .whatis__rightSide {
+        margin: 10px auto;
+        margin-top: 100px;
+    }
+
+    .howwork__items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .activity__container {
+        flex-direction: column;
+        margin: 56px 40px 0 40px;
+        padding-bottom: 40px;
+    }
+
+    .activity__item {
+        width: 100%;
+    }
+
+    .activity__item h1 {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        text-align: left;
+    }
+
+    .activity__item .playbutton {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    .activity__itemControl {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 0;
+        gap: 40px;
+    }
+
+    .activity__itemControl h1 {
+        font-size: 35px;
+    }
+
+    .activity__itemControl .playbutton {
+        min-width: 80px;
+    }
+
+    .ellipse8, .ellipse10 {
+        left: 0;
+    }
 }
 
 @media (max-width: 1190px) {
@@ -787,8 +892,18 @@ a:hover {
     .footer__contacts {
         width: 100%;
     }
+
+    .howwork__items {
+        grid-template-columns: 1fr;
+    }
 }
 
+@media (max-width: 640px) {
+    .getstarted__rightSide .img {
+        width: 100%;
+        height: auto;
+    }
+}
 
 @media (max-width: 600px) {
     .navigation__links {
