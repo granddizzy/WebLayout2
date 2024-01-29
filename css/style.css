@@ -789,7 +789,7 @@ a:hover {
 
     .getstarted__leftSide {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 1px;
     }
 
     .getstarted__leftSide .text {
@@ -803,10 +803,37 @@ a:hover {
 
     .getstarted__rightSide .img img {
         margin: auto;
+        padding: 50px 50px 50px 50px;
+    }
+
+    .getstarted__rightSide .img .blur {
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        /*bottom: -215px;*/
+        bottom: -25%;
     }
 
     .getstarted__buttons {
         justify-content: center;
+    }
+
+    .getstarted__info1 {
+        position: absolute;
+        left: 6%;
+        top: 200px;
+    }
+
+    .getstarted__info2 {
+        position: absolute;
+        left: 30%;
+        top: 100px;
+    }
+
+    .getstarted__info3 {
+        position: absolute;
+        right: 6%;
+        top: 150px;
     }
 
     .whatis .container {
