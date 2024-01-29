@@ -318,34 +318,34 @@ a:hover {
 }
 
 .whatis__leftSide {
-    width: 524px;
-    position: relative;
-    height: 439px;
+    /*width: 524px;*/
+    /*height: 439px;*/
+    /*position: relative;*/
 }
 
-.whatis__leftSide .leftSide__img1 {
-    position: absolute;
-    top: 11px;
-    left: 10px;
-}
+/*.whatis__leftSide .leftSide__img1 {*/
+/*    position: absolute;*/
+/*    top: 11px;*/
+/*    left: 10px;*/
+/*}*/
 
-.whatis__leftSide .leftSide__img1_1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+/*.whatis__leftSide .leftSide__img1_1 {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/
 
-.whatis__leftSide .leftSide__img2 {
-    position: absolute;
-    bottom: 15px;
-    right: 4px;
-}
+/*.whatis__leftSide .leftSide__img2 {*/
+/*    position: absolute;*/
+/*    top: 125px;*/
+/*    right: 4px;*/
+/*}*/
 
-.whatis__leftSide .leftSide__img2_1 {
-    position: absolute;
-    bottom: -3px;
-    right: -10px;
-}
+/*.whatis__leftSide .leftSide__img2_1 {*/
+/*    position: absolute;*/
+/*    top: 108px;*/
+/*    right: -10px;*/
+/*}*/
 
 .whatis__rightSide {
     max-width: 524px;
@@ -423,7 +423,7 @@ a:hover {
     text-align: center;
 }
 
-.howwork .text {
+.howwork__text {
     color: rgba(255, 255, 255, 0.80);
 
     text-align: center;
@@ -495,7 +495,7 @@ a:hover {
     color: #FFF;
 
     font-family: Poppins, serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -818,8 +818,16 @@ a:hover {
         margin-top: 100px;
     }
 
+    .howwork {
+        margin-top: 80px;
+    }
+
     .howwork__items {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .activity {
+        margin-top: 80px;
     }
 
     .activity__container {
@@ -865,6 +873,10 @@ a:hover {
 
     .ellipse8, .ellipse10 {
         left: 0;
+    }
+
+    .getstarted__info {
+        justify-content: space-around
     }
 }
 
@@ -917,4 +929,18 @@ a:hover {
     .footer {
         padding-bottom: 50px;
     }
+
+    .whatis__leftSide {
+        width: 100%;
+    }
+
+    .leftSide__img1, .leftSide__img2 {
+        width: 53%;
+    }
+
+    .leftSide__img1_1, .leftSide__img2_1 {
+        width: 57%;
+    }
+
+
 }
